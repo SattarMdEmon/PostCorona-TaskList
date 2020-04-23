@@ -163,7 +163,7 @@ header p {
   border-radius: 5px;
 }
 
-#clear{
+#clear:hover{
 background-color: darkorange;
 }
 
