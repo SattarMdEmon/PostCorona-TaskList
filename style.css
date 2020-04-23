@@ -163,6 +163,11 @@ header p {
   border-radius: 5px;
 }
 
+#clear{
+background-color: darkorange;
+}
+
+
 #list-area li {
   font-size: 1.2rem;
   background-color: var(--dark-primary);
