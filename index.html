@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bed90d1228.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-do List</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="bacteria.svg" alt="" />
+        <h1>Post Lockdown To-Do List</h1>
+      </nav>
+      <!-- <div class="container">
+        <p>
+          Here, you can keep track of all the things you want to do after the
+          Coronavirus Lockdown is over
+        </p>
+        <p class="lead">
+          Don't worry your list will be saved as long as you don't clear your
+          browser cookies
+        </p>
+      </div> -->
+    </header>
+    <main class="container">
+      <div id="input-area" class="card">
+        <h2>Enter your task</h2>
+        <form id="task-form" action="#">
+          <input
+            type="text"
+            name="task-input"
+            id="task-input"
+            placeholder="example: Eat Mukta Biriyani"
+          />
+          <input id="submit" type="submit" value="+" class="btn" />
+        </form>
+      </div>
+      <div id="list-area" class="card">
+        <h2>Task List</h2>
+        <div id="filter-area">
+          <i class="fas fa-search"></i>
+          <input type="text" name="filter" id="filter" placeholder="Search" />
+        </div>
+        <ul id="collection"></ul>
+        <button id="clear">Clear Tasks</button>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
